@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+        <title>Тесты к магистратуре</title>
+		 <link href="css/site.css" media="screen" rel="stylesheet" type="text/css">
+    </head>
+<body>     
+<div id="centerLayer">
+    <div id="start-panel">
+	
+	<div class="col-wrap1">
+<div class="col-wrap2">
+<div class="col1">
+<fieldset>
+	<legend>Вопросы типа А</legend>	
+	<p>Всего вопросов: <span id="allCountA"></span></p>
+	<p>Количество вопросов в тесте: <input type="number" id="countA"/></p>
+	<p>
+	<span>C </span> <input type="number" id="startA" min="0"/>
+	<span>До </span><input type="number" id="endA" min="0"/>
+	</p>
+	<p><input type='checkbox' id='mixQA'/> <label for='mixQA'>Перемешать вопросы</label>
+	<input type='checkbox' id='mixA' /> <label for='mixA'>Перемешать ответы</label></p>
+ </fieldset>
+</div>
+<div class="col2">
+	<fieldset>
+	<legend>Вопросы типа B</legend>
+	<p>Всего вопросов: <span id="allCountB"></span></p>
+	<p>Количество вопросов в тесте: <input type="number" id="countB" /></p>
+	<p>
+	<span>C </span><input type="number" id="startB" min="0"/>
+	<span>До </span><input type="number" id="endB" min="0"/>
+	</p>
+	<p><input type='checkbox' id='mixQB'/> <label for='mixQB'>Перемешать вопросы</label></p>
+	</fieldset>
+
+</div>
+<div class="clear"></div>
+</div>
+</div>
+	
+	<button class="flat-button-blue " id="start">Начать тест</button>
+	</div>
+	
+	
+	
+	<div id="questions"></div>
+	
+	</div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/data.js"></script> 
+		<script src="js/main.js"></script>
+		</body>		
+		</html>
