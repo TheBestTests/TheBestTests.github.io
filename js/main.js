@@ -143,10 +143,10 @@
 		$('#allCountB').text(data.B.length);
 		$('#countA').val(settingsA.count);		
 		$('#countB').val(settingsB.count);
-		$('#startA').val(0);		
-		$('#startB').val(0);		
-		$('#endA').val(settingsA.count);		
-		$('#endB').val(settingsB.count);
+		$('#startA').val(settingsA.start);		
+		$('#startB').val(settingsB.start);		
+		$('#endA').val(settingsA.end);		
+		$('#endB').val(settingsB.end);
 		$('#mixQB').prop('checked',settingsB.mixQ);
 		$('#mixQA').prop('checked', settingsA.mixQ);
 		$('#mixA').prop('checked', settingsA.mixA);
